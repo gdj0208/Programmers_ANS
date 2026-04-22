@@ -9,16 +9,10 @@
 프로그래머스에서 제공하는 **레벨(Level 0 ~ Level 5)**을 기준으로 폴더를 분리하여 관리합니다.
 
 ```text
-📦 programmers-ps
- ┣ 📂 Level_0
- ┃ ┣ 📜 옹알이_(1).py
- ┃ ┗ 📜 안전지대.py
- ┣ 📂 Level_1
- ┃ ┣ 📜 폰켓몬.py
- ┃ ┗ 📜 체육복.py
- ┣ 📂 Level_2
- ┃ ┣ 📜 타겟_넘버.py
- ┃ ┗ 📜 ...
- ┣ 📂 Level_3
- ┃ ┗ 📜 ...
+📦 Programmers
+ ┣ 📂 SQL
+ ┃ ┗ 📜 xxxxxx.sql
+ ┣ 📂 PS
+ ┃ ┗ 📂 Level_1
+ ┃   ┗ 📜 xxxxxx.py
  ┗ 📜 README.md
