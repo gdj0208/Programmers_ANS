@@ -1,0 +1,7 @@
+SELECT
+    dp.DEPT_ID, dp.DEPT_NAME_EN, ROUND(avg(emp.SAL),0) as AVG_SAL
+FROM
+    HR_EMPLOYEES as emp
+    left join HR_DEPARTMENT as dp on emp.DEPT_ID = dp.DEPT_ID
+GROUP BY dp.DEPT_ID
+ORDER BY AVG_SAL DESC
