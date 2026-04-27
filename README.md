@@ -10,9 +10,11 @@
 
 ```text
 📦 Programmers
- ┣ 📂 SQL
- ┃ ┗ 📜 xxxxxx.sql
  ┣ 📂 PS
  ┃ ┗ 📂 Level_1
  ┃   ┗ 📜 xxxxxx.py
+ ┃ ┗ 📂 Level_2
+ ┃   ┗ 📜 xxxxxx.py
+ ┣ 📂 SQL
+ ┃ ┗ 📜 xxxxxx.sql
  ┗ 📜 README.md
