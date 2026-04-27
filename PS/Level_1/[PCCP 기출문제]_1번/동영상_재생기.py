@@ -17,7 +17,6 @@ def solution(video_len, pos, op_start, op_end, commands):
     start = convert_time_to_seconds(op_start)
     end = convert_time_to_seconds(op_end)
 
-
     if start <= cur_time and cur_time <= end :
         cur_time = end
 
@@ -35,10 +34,3 @@ def solution(video_len, pos, op_start, op_end, commands):
 
     answer = convert_seconds_to_time(cur_time)
     return answer
-
-video_len ="07:22"
-pos = "04:05"
-op_start = "00:15"
-op_end = "04:07"
-commands = ["next"]
-print(solution(video_len, pos, op_start, op_end, commands))
